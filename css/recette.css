@@ -1,0 +1,141 @@
+h2 {
+    font-size : 50px;
+}
+
+h3 {
+    font-size : 25px;
+}
+
+#ContenuPage {
+    font-family : Lato;
+    font-size : 25px;
+}
+
+#ContenuPage img {
+    width : 600px;
+    height : 450px;
+    margin-top : 5%;
+    border-radius : 25px;
+    border-color : #FFA470;
+    border-style : solid 0.7em;
+    margin-left : 5%;
+    margin-right : 2%;
+    margin-top : 0.2%;
+    text-align : right;
+    display: inline-block;
+    position : block;
+    right : 90%;
+    overflow: hidden;
+}
+
+@media (max-width: 1416px){
+    #ContenuPage img {
+        width : 300px;
+        height : 225px;
+        margin-top : 5%;
+        border-radius : 25px;
+        border-color : white;
+        border-style : solid;
+        margin-left : 5%;
+        margin-right : 2%;
+        text-align : right;
+        display: inline-block;
+        position : block;
+        right : 90%;
+    }
+    
+    #ContenuPage {
+        font-family : Lato;
+        font-size : 14px;
+    }
+    
+    #Commentaire{
+        font-family : Lato;
+        font-size : 14px;
+        display : block;
+        background-color:#FFEBE0;
+        border: solid 0.3em;
+        border-color : #FFA470;
+        opacity: 1;
+        margin-top : 10%;
+        margin-left : 12%;
+        margin-right: 13%;
+        border-radius : 15px;
+        position:relative;
+        padding-left : 5%;
+    }
+}
+
+#Side {
+    text-align : left;
+    display: inline-block;
+    position : absolute;
+    overflow: hidden;
+}
+
+#Etape {
+    margin-left : 7%;
+    margin-right : 2%;
+    margin-top : 0.2%;
+    top : -10px;
+}
+
+/*Commentaire*/
+#Commentaire{
+    font-family : Lato;
+    font-size : 25px;
+    display : block;
+    border: solid 0.3em;
+    border-color : #FFA470;
+    background-color:#FFEBE0;
+    opacity: 1;
+    margin-top : 3%;
+    margin-left : 12%;
+    margin-right: 13%;
+    border-radius : 15px;
+    position:relative;
+    padding-left : 5%;
+	margin-bottom : 50%;
+}
+
+.FormulaireCommentaire input[type=submit] {
+    display : block;
+    background-color: #FFA470;
+    color: white;
+    padding: 10px 20px;
+    border : none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top : 1%;
+    margin-left : auto;
+    margin-right : auto;
+}
+
+.FormulaireCommentaire input[type=submit]:hover {
+    background-color: #FFB187;
+    color: #white;
+}
+
+.AfficherCommentaires {
+    display : block;
+    margin-top : 5%;
+}
+
+.AfficherCommentaires img{
+    float : left;
+}
+
+.AfficherCommentaires p{
+    display : inline-block;
+    margin-left : 1%;
+}
+
+#Listes {
+    margin-left : 5%;
+}
+
+#AuteurPhoto img{
+	width:50px;
+	height : 50px;
+	display : inline-flex;
+}

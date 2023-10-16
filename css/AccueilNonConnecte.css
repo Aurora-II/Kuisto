@@ -1,0 +1,89 @@
+@font-face {
+    font-family:"Lato";
+    src: url("css/Lato-Thin") format("truetype");
+}
+
+body {
+	font-family:Lato;
+}
+
+/*BANDEAU*/
+.Bandeau{
+	width:100%;
+	top : 0;
+	left : 0;
+	background-color:#898989; 
+	position : fixed;
+	/*border-bottom-left-radius: 50px 50px; Effet arrondi sur le coin gauche du bandeau*/
+}
+
+/* L'image du logo dans le bandeau*/
+.Bandeau img{
+	width: 225px;
+	float : left;
+	margin-left : 1%;
+	margin-top : 0.3%;
+	margin-right: 1%;
+}
+
+/* Bouton "Connexion" dans le bandeau*/
+.Bandeau input[type=submit] {
+	float : right;
+    background-color: #FFA470;
+    color: white;
+    padding: 10px 20px;
+    margin: 35px 5px 0;
+	margin-right : 1%;
+	border : none;
+    border-radius: 20px;
+    cursor: pointer;
+	top : 50%;
+}
+
+.Bandeau input[type=submit]:hover {
+    background-color: #FFB187;
+    color: #white;
+}
+
+/*CONTENU*/
+#ContenuPage{
+	display : block;
+	background-color:#898989;
+	margin-top : 10%;
+	margin-left : 10%;
+	margin-right: 10%;
+	border-radius : 15px;
+}
+
+.BlockRecette{
+	float : left;
+	background-color : #FFA470;
+	display : block;
+	border-radius : 20px;
+	width : 250px;
+	height : 250px;
+	margin : 1%;
+}
+
+.BlockRecette b{
+	font-size : 20px;
+	margin-top: 50%;
+}
+
+.BlockRecette {
+	font-size : 20px;
+
+}
+
+.BlockRecette img {
+	width : 200px;
+	height : 150px;
+	margin-top : 5%;
+	border-radius : 25px;
+	border-color : white;
+	border-style : solid;
+}
+
+.BlockRecette img:hover {
+	transform: scale(1.05,1.05);	
+}
